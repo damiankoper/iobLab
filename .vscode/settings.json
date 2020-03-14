@@ -1,0 +1,7 @@
+{
+  "python.pythonPath": "/home/damian_koper/.local/share/virtualenvs/iobLab-mtUql9dP/bin/python",
+  "editor.rulers": [
+    80,
+  ],
+  "python.jediEnabled": false
+}
