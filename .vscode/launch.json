@@ -32,9 +32,9 @@
       "name": "Python: Transform file",
       "type": "python",
       "request": "launch",
-      "program": "${workspaceFolder}/ex2/edge.py",
+      "program": "${workspaceFolder}/ex2/transform.py",
       "console": "integratedTerminal",
-      "args": ["-i","./ex1/powazna_uczelnia.jpg"]
+      "args": ["-i","./ex2/luk.jpg"]
     },
     {
       "name": "Python: Edge picsum",

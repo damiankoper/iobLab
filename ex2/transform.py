@@ -28,7 +28,8 @@ m = [
 ]
 m = np.asarray(m)
 modified = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-modified = np.rint(modified.dot(m.T)).astype('uint8')
+modified = cv2.transform(modified, m)
+modified = cv2.cvtColor(modified, cv2.COLOR_RGB2BGR)
 
 
 cv2.namedWindow('Result', cv2.WINDOW_NORMAL)
