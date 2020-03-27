@@ -4,8 +4,8 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-cowsay = "*"
 argparse = "*"
+opencv-python = "*"
 
 [dev-packages]
 autopep8 = "*"

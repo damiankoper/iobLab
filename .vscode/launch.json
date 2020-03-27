@@ -5,12 +5,44 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Python: Current File",
+      "name": "Python: Transmitter picsum",
       "type": "python",
       "request": "launch",
-      "program": "${file}",
+      "program": "${workspaceFolder}/ex3/transmitter.py",
       "console": "integratedTerminal",
-      "args": []
+      "args": ["-p"]
+    },
+    {
+      "name": "Python: Transmitter file",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/ex3/transmitter.py",
+      "console": "integratedTerminal",
+      "args": ["-i","./ex3/powazna_uczelnia.jpg"]
+    },
+    {
+      "name": "Python: Transform picsum",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/ex2/transform.py",
+      "console": "integratedTerminal",
+      "args": ["-p"]
+    },
+    {
+      "name": "Python: Transform file",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/ex2/edge.py",
+      "console": "integratedTerminal",
+      "args": ["-i","./ex1/powazna_uczelnia.jpg"]
+    },
+    {
+      "name": "Python: Edge picsum",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/ex1/edge.py",
+      "console": "integratedTerminal",
+      "args": ["-p"]
     }
   ]
 }

@@ -3,5 +3,8 @@
   "editor.rulers": [
     80,
   ],
-  "python.jediEnabled": false
+  "python.jediEnabled": false,
+  "python.linting.pylintArgs": [
+    "--extension-pkg-whitelist=cv2"
+  ]
 }
