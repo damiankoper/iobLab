@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 argparse = "*"
 opencv-python = "*"
+scipy = "*"
 
 [dev-packages]
 autopep8 = "*"
