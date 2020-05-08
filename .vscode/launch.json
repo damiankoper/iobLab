@@ -5,28 +5,28 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "PPM",
+            "name": "Ex1",
             "type": "python",
             "request": "launch",
-            "module": "lab4-ppm"
+            "module": "ex1"
         },
         {
-            "name": "PPM - spectrum",
+            "name": "Ex2",
             "type": "python",
             "request": "launch",
-            "module": "lab4-ppm-spectrum"
+            "module": "ex2"
         },
         {
-            "name": "PNG",
+            "name": "Ex3",
             "type": "python",
             "request": "launch",
-            "module": "lab4-png"
+            "module": "ex3"
         },
         {
-            "name": "JPEG",
+            "name": "Ex4_5",
             "type": "python",
             "request": "launch",
-            "module": "lab4-jpeg"
+            "module": "ex4_5"
         }
     ]
 }

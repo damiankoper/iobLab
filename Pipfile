@@ -7,6 +7,8 @@ name = "pypi"
 argparse = "*"
 opencv-python = "*"
 scipy = "*"
+lorem = "*"
+matplotlib = "*"
 
 [dev-packages]
 autopep8 = "*"
